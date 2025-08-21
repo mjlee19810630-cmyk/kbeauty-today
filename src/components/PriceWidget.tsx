@@ -7,7 +7,7 @@ interface PriceWidgetProps {
   products?: Product[];
 }
 
-export function PriceWidget({ products }: PriceWidgetProps) {
+export function PriceWidget({ products: _products }: PriceWidgetProps) {
   // Sample data - in real app this would come from API
   const sampleDeals = [
     {
@@ -39,7 +39,7 @@ export function PriceWidget({ products }: PriceWidgetProps) {
   return (
     <div className="bg-white rounded-xl shadow-lg p-6">
       <div className="flex items-center justify-between mb-4">
-        <h3 className="text-lg font-bold text-gray-900">🔥 Today's Best Deals</h3>
+        <h3 className="text-lg font-bold text-gray-900">🔥 Today&apos;s Best Deals</h3>
         <a 
           href="https://kbeautyprice.com" 
           target="_blank" 

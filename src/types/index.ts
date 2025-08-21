@@ -12,7 +12,7 @@ export interface Product {
   rating: number;
   reviews: number;
   ingredients?: string[];
-  skinType?: ('dry' | 'oily' | 'combination' | 'sensitive' | 'normal')[];
+  skinType?: ('all' | 'dry' | 'oily' | 'combination' | 'sensitive' | 'normal')[];
   tags?: string[];
   affiliateLinks?: AffiliateLink[];
 }

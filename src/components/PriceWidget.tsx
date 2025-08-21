@@ -7,7 +7,7 @@ interface PriceWidgetProps {
   products?: Product[];
 }
 
-export function PriceWidget({ products: _products }: PriceWidgetProps) {
+export function PriceWidget({}: PriceWidgetProps) {
   // Sample data - in real app this would come from API
   const sampleDeals = [
     {
